@@ -25,7 +25,7 @@ body {
   text-align: left;
 }
 .title_color {
-  color: blue;
+  color: rgb(5, 141, 204);
 }
 .headers_logo {
   float: right;
@@ -33,7 +33,7 @@ body {
   width: auto;
 }
 button {
-  background-color: blue;
+  background-color: rgb(5, 141, 204);
   width: 150px;
   height: 50px;
   font-weight: bold;
@@ -95,8 +95,69 @@ a {
 }
 .tableContents {
   margin-top: 20px;
+  margin-bottom: 20px;
   background-color: blanchedalmond;
   padding: 30px;
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto 180px;
+}
+.numberStatistics {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.numberContent {
+  text-align: center;
+  margin-top: 20px;
+}
+.numberContent h1 {
+  color: rgb(5, 141, 204);
+  font-size: 50px;
+}
+.containerFooter {
+  background-color: rgb(5, 141, 204);
+  text-align: center;
+  padding: 100px 0 100px 0;
+}
+.containerFooter h2 a {
+  color: white;
+}
+.contentRated {
+  color: white;
+  width: 280px;
+  text-align: left;
+}
+
+.starRating {
+  display: grid;
+  grid-template-columns: 210px 210px;
+}
+.footer1 {
+  display: grid;
+  grid-template-columns: 260px auto 50px auto;
+  margin-top: 100px;
+}
+/* sao danh gia */
+.stars {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+input.star {
+  display: none;
+}
+label.star {
+  float: right;
+  padding: 5px;
+  font-size: 15px;
+  color: #444;
+  transition: all 0.2s;
+}
+.star ~ label.star:before {
+  content: "\f005";
+  color: #fd4;
+  transition: all 0.25s;
+  font-family: FontAwesome;
+}
+label.star:hover {
+  transform: rotate(-15deg) scale(1.3);
 }
