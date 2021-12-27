@@ -84,10 +84,11 @@ button:hover {
   display: grid;
   grid-template-columns: auto auto auto;
   grid-gap: 10px;
-  padding: 0 15% 100px 15%;
+  padding: 0 15% 0px 15%;
 }
 .finalContent {
   text-align: center;
+  margin-top: 100px;
 }
 a {
   text-decoration: none;
@@ -123,7 +124,7 @@ a {
 }
 .numberContent {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 .numberContent h1 {
   color: rgb(5, 141, 204);
@@ -134,7 +135,7 @@ a {
   background-color: rgb(5, 141, 204);
   text-align: center;
   padding: 100px 15% 100px 15%;
-  margin-top: 20px;
+  margin-top: 50px;
 }
 .containerFooter h2 a {
   color: white;
@@ -190,25 +191,17 @@ label.star:hover {
 
 @media screen and (max-width: 770px) {
   .articleBody1 {
-    display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 5%;
-    padding: 0 15% 100px 15%;
+    grid-gap: 10px;
   }
   .tableContents {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: blanchedalmond;
-    display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 20px;
-    padding: 20px 15% 20px 15%;
   }
   .footer1 {
-    display: grid;
     grid-template-columns: auto;
-    grid-gap: 100px;
-    margin-top: 100px;
+  }
+  .finalContent {
+    margin-top: 30px;
   }
 }
 @media screen and (max-width: 415px) {
@@ -216,40 +209,13 @@ label.star:hover {
     padding: 30px 10px 10px 10px;
   }
   .articleBody1 {
-    display: grid;
     grid-template-columns: none;
     grid-gap: 0px;
-    padding: 30px 10px 10px 10px;
-  }
-  .headerBodyContaiter {
-    border-width: 1px;
-    border-style: groove;
-    padding: 10px;
-  }
-  .headerImg {
-    width: auto;
-    height: 20px;
-    margin-right: 10px;
-  }
-  .headerBody {
-    width: auto;
-    height: auto;
-    text-align: left;
-    padding-right: 10px;
+    padding: 30px 10px 0px 10px;
   }
   .tableContents {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: blanchedalmond;
-    display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 20px;
-    padding: 20px 15% 20px 15%;
-  }
-  .footer1 {
-    display: grid;
-    grid-template-columns: auto;
-    grid-gap: 100px;
-    margin-top: 100px;
+    grid-gap: 10px;
+    padding: 30px 10px 30px 10px;
   }
 }
