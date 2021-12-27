@@ -1,0 +1,198 @@
+* {
+  margin: 0px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: #fff;
+
+  margin: auto;
+}
+.contaiter {
+  max-width: 1800px;
+  margin: auto;
+}
+.headers {
+  background-image: url(https://wallpaperaccess.com/full/3501759.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  width: auto;
+  max-width: 1500px;
+  padding: 100px 15% 100px 15%;
+}
+.contaiterHeaders {
+  text-align: center;
+  height: auto;
+  display: grid;
+}
+.headers_text {
+  float: left;
+  width: auto;
+  max-width: 400px;
+  text-align: left;
+}
+.title_color {
+  color: rgb(5, 141, 204);
+}
+/* .headers_logo {
+  float: right;
+  background-color: gray;
+  min-height: 200px;
+  max-height: 300px;
+  min-width: 200px;
+  max-width: 200px;
+} */
+button {
+  background-color: rgb(5, 141, 204);
+  width: 50%;
+  min-width: 150px;
+  height: 50px;
+  font-weight: bold;
+  color: #fff;
+}
+button:hover {
+  background-color: gray;
+}
+.article {
+  margin-top: 10px;
+  width: 100%;
+  max-width: 500px;
+  padding-bottom: 50px;
+  color: white;
+  text-shadow: 5px #444;
+  background-color: rgba(68, 68, 68, 0.247);
+}
+.articleContaiter {
+  width: auto;
+  margin-top: -4.5%;
+}
+.headerBodyContaiter {
+  background-color: white;
+  border-width: 1px;
+  border-style: groove;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1px;
+  padding-bottom: 30px;
+}
+.headerImg {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+.headerBody {
+  width: auto;
+  height: auto;
+  text-align: left;
+  padding-right: 10px;
+}
+.articleBody1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 5%;
+  padding: 0 15% 100px 15%;
+}
+.finalContent {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#imgContent {
+  width: 30px;
+  height: 30px;
+}
+#linkContent {
+  width: auto;
+}
+.columnContents {
+  width: auto;
+  max-width: 200px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0px;
+  margin-bottom: 10px;
+}
+.tableContents {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: blanchedalmond;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  padding: 20px 15% 20px 15%;
+}
+.numberStatistics {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.numberContent {
+  text-align: center;
+  margin-top: 20px;
+}
+.numberContent h1 {
+  color: rgb(5, 141, 204);
+  font-size: 50px;
+}
+
+.containerFooter {
+  background-color: rgb(5, 141, 204);
+  text-align: center;
+  padding: 100px 15% 100px 15%;
+  margin-top: 20px;
+}
+.containerFooter h2 a {
+  color: white;
+}
+.contentRated {
+  color: white;
+  width: auto;
+  text-align: left;
+}
+
+.starRating {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+}
+.imgComment {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
+}
+.footer1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 100px;
+  margin-top: 100px;
+}
+/* sao danh gia */
+.stars {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+input.star {
+  display: none;
+}
+label.star {
+  float: right;
+  padding: 5px;
+  font-size: 15px;
+  color: #444;
+  transition: all 0.2s;
+}
+.star ~ label.star:before {
+  content: "\f005";
+  color: #fd4;
+  transition: all 0.25s;
+  font-family: FontAwesome;
+}
+label.star:hover {
+  transform: rotate(-15deg) scale(1.3);
+}
