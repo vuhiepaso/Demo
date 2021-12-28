@@ -1,0 +1,4 @@
+- Mobile first 
+- Desktop first
+- Breakpoints
+- @media + screen 
